@@ -3,7 +3,17 @@ body {
     font-family:  Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.music {
+body {
+    background-color:aliceblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+
+
+.blog-post-card {
     background-color: rgba(255, 255, 255, 0.87);
     border-radius: 30px;
     width: 50vw;
@@ -23,9 +33,45 @@ body {
     justify-content: space-between;
 }
 
-p {
+.blog-post-card:hover {
+    transform: scale(1.02, 1.02);
+    transition: transform 0.2s;
+}
+
+.post-img {
+    border-bottom: 2px dotted black;
+    max-width: 100%;
+    width: 50vw;
+    min-width: 300px;
+    border-radius: 10px;
+}
+
+.post-content {
+    padding: 20px;
+}
+
+.post-title {
     color: rgba(0, 0, 0, 0.829);
     font-family: 'Lucida Sans', sans-serif;
     margin-top: 2px;
     text-align: center;
+
+}
+
+.post-excerpt {
+    color: rgb(46, 42, 42);
+}
+
+.read-more {
+    color: white;
+    background-color: rgb(44, 8, 8);
+    margin: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    
+    
+}
+.read-more:hover {
+    background-color: brown;
 }
