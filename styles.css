@@ -1,0 +1,31 @@
+body {
+    background-color: aliceblue;
+    font-family:  Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.music {
+    background-color: rgba(255, 255, 255, 0.87);
+    border-radius: 30px;
+    width: 50vw;
+    height: auto; /* temp fix for other screen sizes */
+    max-width: 500px;
+    max-height: 600px;
+    min-width: 300px;
+    min-height: 500px;
+    margin: 0 30px;
+    margin-left: 260px;
+    margin-top: 150px;
+    max-width: 500px;
+    max-height: 600px;
+    text-align: center;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+p {
+    color: rgba(0, 0, 0, 0.829);
+    font-family: 'Lucida Sans', sans-serif;
+    margin-top: 2px;
+    text-align: center;
+}
